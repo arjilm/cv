@@ -51,7 +51,7 @@
 
  }
  .col1 h2{
-
+ 	color: #8baeb1;
  }
  .col2{
  	float: left;
@@ -65,6 +65,10 @@
  .col2 h3{
  	float: left;
  	width: 30%;
+ 	font-size: 1.1em;
+ }
+ .col2-year h3{
+ 	color: #8baeb1;
  }
  .col2 p{
 
@@ -75,6 +79,7 @@
 }
 .col2-ket p{
 	margin-bottom: 25px;	
+	text-align: justify;
 }
 .col2 progress{
 width: 100%;
@@ -152,7 +157,7 @@ progress#mysql{
 	letter-spacing: 2px;
 }
 #footer p{
-	border-top: 2px #ccc solid;
+	border-top: 2px #d3e4ff solid;
 	text-align: center;
 	color: #c6fff3;
 	padding: 11px;
@@ -163,5 +168,5 @@ progress#mysql{
 body{
 	background-color: #d3e4ff;
 	font-family: sans;
-	color:  #1d838f;
+	color:  #2e6e6e;
 }
