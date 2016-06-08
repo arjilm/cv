@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background: #099ec3;
+  	display: block;
+}
+
+#image img{
+	height: 280px;
+	width: 280px;
+	border-radius: 50%;
+	margin: 24px 95px 17px 0px;
+}
+#conten-header {
+	float: left;
+	margin: 40px 0 0 90px;
+	font-family: cursive;
+	color: #e6ffff;
+
+}
+#image {
+	float: right;
+}
+#conten-header h1{
+	font-size: 70px;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	color: white;
+}
+#name{
+	font-size: 40px;
+	letter-spacing: 6px;
+	margin-bottom: 5px;
+}
+#myskill{
+	font-size: 20px;	
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}
+#conten{
+	margin: 40px 80px 0;
+ 	line-height: 27px;
+}
+
+ .col1{
+ 	float: left;
+ 	width: 23%; 
+ 	margin: 20px 0;
+
+ }
+ .col1 h2{
+
+ }
+ .col2{
+ 	float: left;
+ 	width: 77%;
+ 	margin: 20px 0;
+ }
+ .col2-wrap{
+ 	float: left;
+ 	width: 50%;
+ }
+ .col2 h3{
+ 	float: left;
+ 	width: 30%;
+ }
+ .col2 p{
+
+ }
+
+.col2-ket h3{
+	float: none;
+}
+.col2-ket p{
+	margin-bottom: 25px;	
+}
+.col2 progress{
+width: 100%;
+margin-bottom: 15px;
+}
+progress#html{
+
+}
+progress#css{
+	
+}
+progress#js{
+	
+}
+progress#php{
+	
+}
+progress#mysql{
+	
+}
+
+#sosmed{
+	background-color: #099ec3;
+}
+#sosmed ul{
+	margin: 40px auto ;
+	width: 455px;
+}
+#sosmed h2{
+	text-align: center;
+	padding-top: 25px;
+}
+#sosmed li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+#sosmed li a{
+	background-color: #cfedec;
+	display: block;
+	height: 62px;
+	width: 62px;
+	text-decoration: none;
+	color: #dea55c;
+	border-radius: 50%;
+}
+#sosmed li a i.fa{
+	font-size: 1.5em;
+	text-align: center;
+	display: block;
+	line-height: 64px;
+}
+#sosmed li.social-link:hover a{
+	transition: background-color 0.5s linear;
+	color: #fff;
+}
+#sosmed li.social-link.facebook:hover a{
+  background-color: #004bb1;
+}
+#sosmed li.social-link.twitter:hover a{
+	background-color: #2da4ff;
+}
+#sosmed li.social-link.google-plus:hover a{
+  background-color: #d14836;
+}
+#sosmed li.social-link.linkedin:hover a{
+	background-color: #007a9e;
+}
+#sosmed li.social-link.github:hover a{
+  background-color: #2C2E2F;
+}
+#sosmed h2{
+	color: #c6fff3;
+	font-family: cursive;
+	letter-spacing: 2px;
+}
+#footer p{
+	border-top: 2px #ccc solid;
+	text-align: center;
+	color: #c6fff3;
+	padding: 11px;
+	font-family: cursive;
+	letter-spacing: 2px;
+	word-spacing: 12px;
+}
+body{
+	background-color: #d3e4ff;
+	font-family: sans;
+	color:  #1d838f;
+}
